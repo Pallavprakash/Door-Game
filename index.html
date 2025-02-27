@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Door Game</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="./Assets/Door.png" class="left-image" />
+        <div class="container">
+            <h1>Door Game</h1>
+            <p class="instructions">Enter the password to open the doors and win the game. Use your EP wisely!</p>
+
+            <div class="input-group">
+                <input type="number" id="password" placeholder="Enter password here">
+            </div>
+
+            <button onclick="playGame()">Submit</button>
+            <p class="hint" id="hint">Hint will appear here...</p>
+
+            <div class="message" id="message"></div>
+
+            <footer>
+                Made with ❤ for gamers
+            </footer>
+        </div>
+        <img src="./Assets/Door.png" class="right-image" />
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
